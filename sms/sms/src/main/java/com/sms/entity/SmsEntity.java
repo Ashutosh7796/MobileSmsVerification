@@ -20,6 +20,7 @@ public class SmsEntity {
     private String otp;
     private String salt;
     private LocalDateTime createdAt;
+    private String status;
 
 
     public SmsEntity() {
